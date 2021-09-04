@@ -43,7 +43,7 @@ either be run as root, or be granted appropriate capabilities:
     <executable>
 
 ## Usage
-Please see [godoc.org](http://godoc.org/github.com/paypal/gatt) for documentation.
+Please see [godoc.org](http://godoc.org/github.com/toddyco/gatt) for documentation.
 
 ## Examples
 
