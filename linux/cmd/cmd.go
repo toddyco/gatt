@@ -5,7 +5,6 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"log"
 
 	"github.com/toddyco/gatt/linux/evt"
 	"github.com/toddyco/gatt/linux/util"
