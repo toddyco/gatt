@@ -39,6 +39,9 @@ func newDevice(n int, chk bool) (*device, error) {
 			return d, err
 		}
 	}
+
+	// we shouldn't get here
+	syscall.Close(fd)
 	return nil, errors.New("no supported devices available")
 }
 
