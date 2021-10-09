@@ -35,6 +35,7 @@ func (s State) String() string {
 // Package users can use the Handler to set these handlers.
 type Device interface {
 	Init(stateChanged func(Device, State)) error
+	Stop() error
 
 	// Advertise advertise AdvPacket
 	Advertise(a *AdvPacket) error
